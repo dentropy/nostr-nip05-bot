@@ -1,0 +1,170 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@hono/hono@^4.8.5": "4.8.5",
+    "jsr:@nostr/tools@^2.15.1": "2.15.1",
+    "jsr:@nostrify/nostrify@~0.46.4": "0.46.4",
+    "jsr:@nostrify/types@0.36": "0.36.0",
+    "jsr:@scure/base@^1.2.4": "1.2.6",
+    "jsr:@std/assert@1": "1.0.13",
+    "jsr:@std/encoding@~0.224.1": "0.224.3",
+    "jsr:@std/internal@^1.0.6": "1.0.9",
+    "npm:@noble/ciphers@~0.5.1": "0.5.3",
+    "npm:@noble/curves@1.2.0": "1.2.0",
+    "npm:@noble/hashes@1.3.1": "1.3.1",
+    "npm:@scure/base@1.1.1": "1.1.1",
+    "npm:@scure/bip32@1.3.1": "1.3.1",
+    "npm:@scure/bip39@1.2.1": "1.2.1",
+    "npm:@types/node@*": "22.15.15",
+    "npm:create-hono@*": "0.19.2",
+    "npm:lru-cache@^10.2.0": "10.4.3",
+    "npm:nostr-tools@^2.13.0": "2.15.0",
+    "npm:nostr-wasm@0.1.0": "0.1.0",
+    "npm:websocket-ts@^2.2.1": "2.2.1",
+    "npm:zod@^3.23.8": "3.25.76"
+  },
+  "jsr": {
+    "@hono/hono@4.8.5": {
+      "integrity": "78f72e532f378e379915a7e1ae7bd8a171b02324bd37b70877fd35375e8c2d6b"
+    },
+    "@nostr/tools@2.15.1": {
+      "integrity": "8ad2328ee0afde8ad2c1226dd125ff7a691a434c3bfe787912fe56dbda9ede0c",
+      "dependencies": [
+        "npm:@noble/ciphers",
+        "npm:@noble/curves",
+        "npm:@noble/hashes",
+        "npm:@scure/base@1.1.1",
+        "npm:@scure/bip32",
+        "npm:@scure/bip39",
+        "npm:nostr-wasm"
+      ]
+    },
+    "@nostrify/nostrify@0.46.4": {
+      "integrity": "09d1d95c9e30566419e23029a5ce0ee822d9ae483b801e5f0ac555b96ab3404e",
+      "dependencies": [
+        "jsr:@nostrify/nostrify",
+        "jsr:@nostrify/types",
+        "jsr:@scure/base@^1.2.4",
+        "jsr:@std/encoding",
+        "npm:lru-cache",
+        "npm:nostr-tools",
+        "npm:websocket-ts",
+        "npm:zod"
+      ]
+    },
+    "@nostrify/types@0.36.0": {
+      "integrity": "b3413467debcbd298d217483df4e2aae6c335a34765c90ac7811cf7c637600e7"
+    },
+    "@scure/base@1.2.6": {
+      "integrity": "24f115a886d67bfb869ade2c1ada041bfe7f69c677c9ee3725d1ed38ad2d4ac1"
+    },
+    "@std/assert@1.0.13": {
+      "integrity": "ae0d31e41919b12c656c742b22522c32fb26ed0cba32975cb0de2a273cb68b29",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/encoding@0.224.3": {
+      "integrity": "5e861b6d81be5359fad4155e591acf17c0207b595112d1840998bb9f476dbdaf"
+    },
+    "@std/internal@1.0.9": {
+      "integrity": "bdfb97f83e4db7a13e8faab26fb1958d1b80cc64366501af78a0aee151696eb8"
+    }
+  },
+  "npm": {
+    "@noble/ciphers@0.5.3": {
+      "integrity": "sha512-B0+6IIHiqEs3BPMT0hcRmHvEj2QHOLu+uwt+tqDDeVd0oyVzh7BPrDcPjRnV1PV/5LaknXJJQvOuRGR0zQJz+w=="
+    },
+    "@noble/curves@1.1.0": {
+      "integrity": "sha512-091oBExgENk/kGj3AZmtBDMpxQPDtxQABR2B9lb1JbVTs6ytdzZNwvhxQ4MWasRNEzlbEH8jCWFCwhF/Obj5AA==",
+      "dependencies": [
+        "@noble/hashes@1.3.1"
+      ]
+    },
+    "@noble/curves@1.2.0": {
+      "integrity": "sha512-oYclrNgRaM9SsBUBVbb8M6DTV7ZHRTKugureoYEncY5c65HOmRzvSiTE3y5CYaPYJA/GVkrhXEoF0M3Ya9PMnw==",
+      "dependencies": [
+        "@noble/hashes@1.3.2"
+      ]
+    },
+    "@noble/hashes@1.3.1": {
+      "integrity": "sha512-EbqwksQwz9xDRGfDST86whPBgM65E0OH/pCgqW0GBVzO22bNE+NuIbeTb714+IfSjU3aRk47EUvXIb5bTsenKA=="
+    },
+    "@noble/hashes@1.3.2": {
+      "integrity": "sha512-MVC8EAQp7MvEcm30KWENFjgR+Mkmf+D189XJTkFIlwohU5hcBbn1ZkKq7KVTi2Hme3PMGF390DaL52beVrIihQ=="
+    },
+    "@scure/base@1.1.1": {
+      "integrity": "sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA=="
+    },
+    "@scure/bip32@1.3.1": {
+      "integrity": "sha512-osvveYtyzdEVbt3OfwwXFr4P2iVBL5u1Q3q4ONBfDY/UpOuXmOlbgwc1xECEboY8wIays8Yt6onaWMUdUbfl0A==",
+      "dependencies": [
+        "@noble/curves@1.1.0",
+        "@noble/hashes@1.3.2",
+        "@scure/base"
+      ]
+    },
+    "@scure/bip39@1.2.1": {
+      "integrity": "sha512-Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg==",
+      "dependencies": [
+        "@noble/hashes@1.3.2",
+        "@scure/base"
+      ]
+    },
+    "@types/node@22.15.15": {
+      "integrity": "sha512-R5muMcZob3/Jjchn5LcO8jdKwSCbzqmPB6ruBxMcf9kbxtniZHP327s6C37iOfuw8mbKK3cAQa7sEl7afLrQ8A==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "create-hono@0.19.2": {
+      "integrity": "sha512-Bl5mqiZaWwwNOUjLBwQtVzj066DtB6g0FrWK++C5uSM1OPZ3t//9W29xPQznyVe4p6ijY3osDeiOG4Cxlc+zGQ==",
+      "bin": true
+    },
+    "lru-cache@10.4.3": {
+      "integrity": "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="
+    },
+    "nostr-tools@2.15.0": {
+      "integrity": "sha512-Jj/+UFbu3JbTAWP4ipPFNuyD4W5eVRBNAP+kmnoRCYp3bLmTrlQ0Qhs5O1xSQJTFpjdZqoS0zZOUKdxUdjc+pw==",
+      "dependencies": [
+        "@noble/ciphers",
+        "@noble/curves@1.2.0",
+        "@noble/hashes@1.3.1",
+        "@scure/base",
+        "@scure/bip32",
+        "@scure/bip39",
+        "nostr-wasm"
+      ]
+    },
+    "nostr-wasm@0.1.0": {
+      "integrity": "sha512-78BTryCLcLYv96ONU8Ws3Q1JzjlAt+43pWQhIl86xZmWeegYCNLPml7yQ+gG3vR6V5h4XGj+TxO+SS5dsThQIA=="
+    },
+    "undici-types@6.21.0": {
+      "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="
+    },
+    "websocket-ts@2.2.1": {
+      "integrity": "sha512-YKPDfxlK5qOheLZ2bTIiktZO1bpfGdNCPJmTEaPW7G9UXI1GKjDdeacOrsULUS000OPNxDVOyAuKLuIWPqWM0Q=="
+    },
+    "zod@3.25.76": {
+      "integrity": "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ=="
+    }
+  },
+  "redirects": {
+    "https://esm.sh/@faker-js/faker": "https://esm.sh/@faker-js/faker@9.9.0"
+  },
+  "remote": {
+    "https://deno.land/std@0.224.0/dotenv/mod.ts": "0180eaeedaaf88647318811cdaa418cc64dc51fb08354f91f5f480d0a1309f7d",
+    "https://deno.land/std@0.224.0/dotenv/parse.ts": "09977ff88dfd1f24f9973a338f0f91bbdb9307eb5ff6085446e7c423e4c7ba0c",
+    "https://deno.land/std@0.224.0/dotenv/stringify.ts": "275da322c409170160440836342eaa7cf012a1d11a7e700d8ca4e7f2f8aa4615",
+    "https://esm.sh/@faker-js/faker@9.9.0": "1122c88846a10b7a2119fb47c02d17c448fd4087a36f89fbe0e9654b7e1e6cee",
+    "https://esm.sh/@faker-js/faker@9.9.0/denonext/faker.mjs": "2c812421658d93e595d347f38c9267b098e4e59700c16b8abd2e27ef99741652"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.8.5",
+      "jsr:@nostr/tools@^2.15.1",
+      "jsr:@nostrify/nostrify@~0.46.4",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
